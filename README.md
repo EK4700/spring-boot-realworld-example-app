@@ -2,15 +2,15 @@
 
 [![Actions](https://github.com/gothinkster/spring-boot-realworld-example-app/workflows/Java%20CI/badge.svg)](https://github.com/gothinkster/spring-boot-realworld-example-app/actions)
 
-> ### Spring boot + MyBatis codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) spec and API.
+> ### Spring boot + MyBatis codebase containing real-world examples (CRUD, auth, advanced patterns, etc) that adhere to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) spec and API.
 
-This codebase was created to demonstrate a fully fledged full-stack application built with Spring boot + Mybatis including CRUD operations, authentication, routing, pagination, and more.
+This codebase was created to demonstrate a fully-fledged full-stack application built with Spring boot + Mybatis including CRUD operations, authentication, routing, pagination, and more.
 
-For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
+For more information on how this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
 
 # *NEW* GraphQL Support  
 
-Following some DDD principles. REST or GraphQL is just a kind of adapter. And the domain layer will be consistent all the time. So this repository implement GraphQL and REST at the same time.
+Following some DDD principles. REST or GraphQL is just a kind of adapter. And the domain layer will be consistent all the time. So this repository implements GraphQL and REST at the same time.
 
 The GraphQL schema is https://github.com/gothinkster/spring-boot-realworld-example-app/blob/master/src/main/resources/schema/schema.graphqls and the visualization looks like below.
 
@@ -29,12 +29,12 @@ And the code is organized as this:
 
 1. `api` is the web layer implemented by Spring MVC
 2. `core` is the business model including entities and services
-3. `application` is the high-level services for querying the data transfer objects
+3. `application` is the high-level service for querying the data transfer objects
 4. `infrastructure`  contains all the implementation classes as the technique details
 
 # Security
 
-Integration with Spring Security and add other filter for jwt token process.
+Integration with Spring Security and add another filter for jwt token process.
 
 The secret key is stored in `application.properties`.
 
